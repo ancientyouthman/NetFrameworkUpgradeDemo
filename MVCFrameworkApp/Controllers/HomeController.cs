@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using MVCFrameworkApp.Models;
+using System.Web.Mvc;
 
 namespace MVCFrameworkApp.Controllers
 {
@@ -11,15 +12,13 @@ namespace MVCFrameworkApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            var model = new AboutModel();
+            return View(model);
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
+            ViewBag.Message = "Your contact page";
             return View();
         }
     }
