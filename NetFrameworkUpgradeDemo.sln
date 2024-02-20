@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCFrameworkApp", "MVCFrameworkApp\MVCFrameworkApp.csproj", "{13F35AD8-ECE1-43B3-AB25-EC19DAC84230}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCFrameworkAppCore", "MVCFrameworkAppCore\MVCFrameworkAppCore.csproj", "{731484D6-0297-4614-A820-E66C9CB356D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{13F35AD8-ECE1-43B3-AB25-EC19DAC84230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F35AD8-ECE1-43B3-AB25-EC19DAC84230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13F35AD8-ECE1-43B3-AB25-EC19DAC84230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731484D6-0297-4614-A820-E66C9CB356D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731484D6-0297-4614-A820-E66C9CB356D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731484D6-0297-4614-A820-E66C9CB356D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731484D6-0297-4614-A820-E66C9CB356D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
